@@ -5,8 +5,7 @@
 require("../../include.php");
 
 $requestHandle = new DGrst();
-$sqlHandle = new DGsql();
 
-$requestHandle->add_param("api_version", $sqlHandle->config_query("api_version"));
+$requestHandle->add_param("api_version", "1.0");
 print(json_encode($requestHandle->response()))
 ?>

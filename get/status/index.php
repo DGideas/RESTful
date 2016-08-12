@@ -5,7 +5,6 @@
 require("../../include.php");
 
 $requestHandle = new DGrst();
-$sqlHandle = new DGsql();
 
-var_dump($sqlHandle->status());
+var_dump($GLOBALS);
 ?>

@@ -5,7 +5,6 @@
 require("../../include.php");
 
 $requestHandle = new DGrst();
-$sqlHandle = new DGsql();
 
 $microtime = explode(" ", microtime());
 

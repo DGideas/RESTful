@@ -1,8 +1,8 @@
 <?php
 //Author:@DGideas
-//2016-08-12
+//2016-08-17
 
-require("../../include.php");
+require("../include.php");
 
 $requestHandle = new DGrst();
 
